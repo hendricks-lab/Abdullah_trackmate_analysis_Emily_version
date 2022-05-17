@@ -10,3 +10,7 @@ Before you download any of these codes please make sure to download the General 
 - Additional code to make position vs time plots:
 
 	- Run Plot_xk_yk_per_cell.m. This code runs the output .mat files from STEP 1. To change the colours for the trajectories, check lines 129-132. To change the random arrangement along the time axis, check line 94. To increase spacing between position lines, check line 93.
+
+
+-Bootstrapping (Loic_bootstrap_code_04092019_em):
+ This function is commented out of the Step 3 code, but can be used to compare the datasets that have distributions that do not appear normal rather than performing a t-test. Add this function to the path and uncomment that section of the code to run the bootstrapping analysis. 
